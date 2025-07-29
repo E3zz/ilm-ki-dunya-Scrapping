@@ -13,7 +13,7 @@ from firebase_admin import firestore
 
 # Initialize Firestore
 # Use a service account
-cred = credentials.Certificate(r"A:\wb\webscraper\webscraper\spiders\scraping-d4a7b-firebase-adminsdk-4h1lw-1c2eb538d0.json")
+cred = credentials.Certificate('Creden For FireBase')
 
 # Initialize Firebase app
 firebase_admin.initialize_app(cred)
